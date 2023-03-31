@@ -222,29 +222,6 @@ a76f5189f6cec4b3e6d9035e2b55dcda6050dfdb: Ryuta Kamizono
 guillaume@ubuntu:~/0x11$ 
 ```
 Be careful: only 60 requests by hour by IP for unauthenticated requests [Rate limit.](https://developer.github.com/v3/#rate-limiting)
-
-### [11. Twitter Auth](./103-search_twitter.py)
-* Write a Python script that takes in 3 strings and sends a search request to the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index)
-* Use the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index) search endpoint
-* Use the [Application-only authentication](https://developer.twitter.com/en/docs/authentication/overview) flow to do a search request
-* Create an Twitter application [here](https://developer.twitter.com/en/apps)
-* The first argument must be the Consumer Key (API Key)
-* The second argument must be the Consumer Secret (API Secret)
-* The third argument must be the search string
-* Display only 5 results in the following format: [<Tweet ID>] <Tweet text> by <Tweet owner name> (see example below)
-* You must use the packages requests, base64 and sys
-* You are not allowed to import packages other than requests, base64 and sys
-* You don’t need to check arguments passed to the script (number or type)
-```
-guillaume@ubuntu:~/0x11$ ./103-search_twitter.py ABCD ABCDEFGH "#holbertonschool"
-[850600993829945345] Diving into shell project on a Friday night..#latenightcoding #holbertonschool https://t.co/7H7BPUrdgb by megha mohan
-[849877815277244416] All set to crack the shell project starting tomorrow.. #holbertonschool #cisfun https://t.co/f4Yft7JYcX by megha mohan
-[849337620106805248] Why I’m quitting college #Education #HolbertonSchool #LifeLessons #Startup #Entrepreneurship https://t.co/ZS0Hii8jPz https://t.co/qQJNjQK7GF by Marc Picaud
-[849208165883195392] #HolbertonSchool Mason, from Musician to Software Engineer at Docker. Read Blog: https://t.co/IpSBq2ESet by Education News
-[849208010895376384] #HolbertonSchool Hack the Virtual Memory: drawing the VM diagram. Read Blog: https://t.co/t9klptzsDX by Education News
-guillaume@ubuntu:~/0x11$ 
-```
 ---
-
 ## Author
 * **Solomon Ehigiamusoe** - [Solomon454](https://github.com/Solomon454)
